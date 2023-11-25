@@ -13,14 +13,20 @@ table{
     margin-right: 20px;
     height: 200;
     width: 100;
-    border-radius: 30%;
+    border-radius: 20%;
+}
+#img1:hover{
+    transform: translateX( -1px ) rotateY( 180deg );
+}
+#img2:hover{
+    transform: translateX( -1px ) rotateY( 180deg );
 }
 #img2{
     margin-right: 20px;
     padding: 2%;
     height: 200;
     width: 100;
-    border-radius: 30%;
+    border-radius: 20%;
 }
 .pro_pic{
     height: 20px;
