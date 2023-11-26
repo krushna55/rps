@@ -11,7 +11,7 @@ image1.setAttribute("src",randomPicNumber);
  document.getElementById("img2").setAttribute("src",randomPicNumber2);
 
  // 1 - rock ,2 - scissor , 3 - paper
- if(randomNumber == 1 && randomNumber2 ==2 || randomNumber == 2 && randomNumber == 3 || randomNumber == 3 && randomNumber2 ==1) {
+ if(randomNumber == 1 && randomNumber2 ==2 || randomNumber == 2 && randomNumber2 == 3 || randomNumber == 3 && randomNumber2 ==1) {
     document.querySelector('h1').innerHTML="Player 1 won 😃!!!!"
  }
  else if(randomNumber == 2 && randomNumber2 ==1 || randomNumber == 3 && randomNumber2 == 2 || randomNumber == 1 && randomNumber2 == 3){
